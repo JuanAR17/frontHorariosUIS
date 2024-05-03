@@ -1,3 +1,19 @@
+.fi-br-arrow-left{
+    transition: 0.5s;
+    font-size: 60px; 
+    color: #666666;
+}
+
+.fi-br-arrow-left:hover{
+    font-size: 70px; 
+    transition: 0.5s;
+    color: #161256;
+}
+
+.fs-ms{
+    font-size: 22px;
+}
+
 .mcard{
     padding: 20px;
     background-color: #fefff69c;

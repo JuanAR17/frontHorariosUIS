@@ -23,7 +23,7 @@ body{
 }
 
 .bgcl-gy{
-    background-color: #effaf9b2;
+    background-color: #fefff69c;
 }
 
 .txt-sm{
@@ -107,7 +107,7 @@ body{
 }
 
 .btn-mgr:hover{
-    background-color: #f7ffe3;
+    background-color: #faffee;
     color: #677C30;
     border-color: #677C30;
     padding: 15px;
@@ -122,7 +122,7 @@ body{
 }
 
 .btn-mdg:hover{
-    background-color: #faf9ff;
+    background-color: #ffe2e0;
     color: #DA261D;
     border-color: #DA261D;
     margin: 5px;
@@ -205,4 +205,8 @@ body{
 
 .cl-lbl{
     color: #1414EB;
+}
+
+.w-2k{
+    width: 2000px;
 }

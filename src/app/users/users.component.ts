@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { FunccompService } from '../servicios/funccomp.service';
 
 @Component({
   selector: 'app-users',
   templateUrl: './users.component.html',
   styleUrl: './users.component.css'
 })
+
 export class UsersComponent {
   constructor(){}
 
@@ -21,4 +23,5 @@ export class UsersComponent {
     all.value = !all.value
     comp.value = !comp.value
   }
+
 }
