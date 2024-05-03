@@ -15,11 +15,11 @@ body{
 }
 
 .bgcl-bl{
-    background-color: #171639;
+    background-color: #161256;
 }
 
 .bgcl-grn{
-    background-color: #93c02d;
+    background-color: #91BC31;
 }
 
 .bgcl-gy{
@@ -73,11 +73,11 @@ body{
 
 
 .ft-cl-bl{
-    color: #171639;
+    color: #161256;
 }
 
 .ft-cl-gr{
-    color: #93c02d;
+    color: #91BC31;
 }
 
 .w-mcard{
@@ -85,26 +85,37 @@ body{
 }
 
 .btn-mstyle{
-    background-color: #171639;
+    background-color: #161256;
     color: #faf9ff;
+    transition: 0.5s;
+    padding-top: 5px;
+}
+
+.btn-mstyle:hover{
+    background-color: #1414EB;
+    color: #faf9ff;
+    padding-bottom: 10px;
+    transition: 0.6s;
+    transform: scale(1.1);
 }
 
 .btn-mgr{
-    background-color: #93c02d;
+    background-color: #91BC31;
     color: #faf9ff;
     transition: 0.6s;
+    margin: 5px 0px;
 }
 
 .btn-mgr:hover{
-    background-color: #faf9ff;
-    color: #93c02d;
-    border-color: #93c02d;
+    background-color: #f7ffe3;
+    color: #677C30;
+    border-color: #677C30;
     padding: 15px;
     transition: .5s;
 }
 
 .btn-mdg{
-    background-color: #FF4754;
+    background-color: #DA261D;
     color: #faf9ff;
     padding: 10px 20px;
     transition: .6s;
@@ -112,9 +123,86 @@ body{
 
 .btn-mdg:hover{
     background-color: #faf9ff;
-    color: #FF4754;
-    border-color: #FF4754;
+    color: #DA261D;
+    border-color: #DA261D;
     margin: 5px;
     padding: 15px 25px;
     transition: .5s;
+}
+
+.border-grn{
+    border-color: #677C30;
+}
+
+.border-radius{
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 1px solid #677C30;
+}
+
+.border-radius th{
+    text-align: center;
+}
+
+.mtable{
+    background-color: #fffffc;
+    --border: 3.5px solid #677C30;
+    border-radius: 20px; 
+    border-spacing: 0;
+    border-collapse: separate;
+    border: var(--border);
+    overflow: hidden;
+}
+
+.border-radius th:not(:last-child),
+.border-radius td:not(:last-child){
+    border-right: var(--border);
+}
+
+.border-radius>thead>tr:not(:last-child)>th,
+.border-radius>thead>tr:not(:last-child)>td,
+.border-radius>tbody>tr:not(:last-child)>th,
+.border-radius>tbody>tr:not(:last-child)>td,
+.border-radius>tfoot>tr:not(:last-child)>th,
+.border-radius>tfoot>tr:not(:last-child)>td,
+.border-radius>tr:not(:last-child)>td,
+.border-radius>tr:not(:last-child)>th,
+.border-radius>thead:not(:last-child),
+.border-radius>tbody:not(:last-child),
+.border-radius>tfoot:not(:last-child){
+    border-bottom: var(--border)
+}
+
+
+
+.return{
+    cursor: pointer;
+    top: 220px; 
+    left: 80px;
+}
+
+.mbtn-circle{
+    width: 80px; 
+    height: 80px; 
+    font-size: 45px; 
+    right: 60px; 
+    bottom: 60px; 
+    border-radius: 25px;
+}
+
+.cl-wh{
+    color: #fffffd;
+}
+
+.cl-rd{
+    color: #DA261D;
+}
+
+.cl-grn{
+    color: #677C30;
+}
+
+.cl-lbl{
+    color: #1414EB;
 }

@@ -6,16 +6,18 @@ import { AppComponent } from './app.component';
 import { UserlogComponent } from './userlog/userlog.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AdminComponent } from './admin/admin.component';
 import { AsignaturasComponent } from './asignaturas/asignaturas.component';
+import { UsersComponent } from './users/users.component';
+import { GruposComponent } from './grupos/grupos.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UserlogComponent,
-    AdminComponent,
-    AsignaturasComponent
+    AsignaturasComponent,
+    UsersComponent,
+    GruposComponent
   ],
   imports: [
     BrowserModule,
