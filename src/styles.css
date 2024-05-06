@@ -155,6 +155,10 @@ body{
     overflow: hidden;
 }
 
+.mtable th, td{
+    padding: 10px 20px;
+}
+
 .border-radius th:not(:last-child),
 .border-radius td:not(:last-child){
     border-right: var(--border);
@@ -174,10 +178,7 @@ body{
     border-bottom: var(--border)
 }
 
-
-
 .return{
-    cursor: pointer;
     top: 220px; 
     left: 80px;
 }
@@ -207,6 +208,11 @@ body{
     color: #1414EB;
 }
 
-.w-2k{
-    width: 2000px;
+.w-3k{
+    width: 3000px;
+    margin-top: 12px;
+}
+
+.onClickstyle{
+    cursor: pointer;
 }

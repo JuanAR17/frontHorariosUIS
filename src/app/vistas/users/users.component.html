@@ -5,13 +5,13 @@
             <button class="btn h-50 btn-mdg d-flex justify-content-center align-items-center"><i class="fi fi-br-power"></i> </button>
         </div>
         <div class="card-body d-flex justify-content-center flex-column">
-            <button class="btn btn-mgr w-50 align-self-center" (click)="showCompOrALL(hAll, hAsign)">Asignaturas</button>
-            <button class="btn btn-mgr w-50 align-self-center" (click)="showCompOrALL(hAll, hGrup)">Grupos</button>
-            <button class="btn btn-mgr w-50 align-self-center" (click)="showCompOrALL(hAll, hProf)">Profesores</button>
-            <button class="btn btn-mgr w-50 align-self-center" (click)="showCompOrALL(hAll, hAul)">Aulas</button>
-            <button class="btn btn-mgr w-50 align-self-center" (click)="showCompOrALL(hAll, hEdif)">Edificios</button>
-            <button class="btn btn-mgr w-50 align-self-center" (click)="showCompOrALL(hAll, hRepo)">Reportes</button>
-            <button class="btn btn-mgr w-50 align-self-center" (click)="showCompOrALL(hAll, hGestUser)">Gestion de Usuarios</button>
+            <button class="btn btn-mgr w-50 align-self-center" (click)="upValue('hAll', 'hAsign')">Asignaturas</button>
+            <button class="btn btn-mgr w-50 align-self-center" (click)="upValue('hAll', 'hGrup')">Grupos</button>
+            <button class="btn btn-mgr w-50 align-self-center" (click)="upValue('hAll', 'hProf')">Profesores</button>
+            <button class="btn btn-mgr w-50 align-self-center" (click)="upValue('hAll', 'hAul')">Aulas</button>
+            <button class="btn btn-mgr w-50 align-self-center" (click)="upValue('hAll', 'hEdif')">Edificios</button>
+            <button class="btn btn-mgr w-50 align-self-center" (click)="upValue('hAll', 'hRepo')">Reportes</button>
+            <button class="btn btn-mgr w-50 align-self-center" (click)="upValue('hAll', 'hGestUser')">Gestion de Usuarios</button>
         </div>
 </div>
 
@@ -22,3 +22,5 @@
 <app-edificios [hidden]="hEdif.value"></app-edificios>
 <app-reportes [hidden]="hRepo.value"></app-reportes>
 <app-gestion-users [hidden]="hGestUser.value"></app-gestion-users>
+
+

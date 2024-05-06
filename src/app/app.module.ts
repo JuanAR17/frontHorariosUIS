@@ -3,17 +3,17 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserlogComponent } from './userlog/userlog.component';
+import { UserlogComponent } from './vistas/userlog/userlog.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AsignaturasComponent } from './asignaturas/asignaturas.component';
-import { UsersComponent } from './users/users.component';
-import { GruposComponent } from './grupos/grupos.component';
-import { ProfesoresComponent } from './profesores/profesores.component';
-import { AulasComponent } from './aulas/aulas.component';
-import { EdificiosComponent } from './edificios/edificios.component';
-import { ReportesComponent } from './reportes/reportes.component';
-import { GestionUsersComponent } from './gestion-users/gestion-users.component';
+import { AsignaturasComponent } from './vistas/asignaturas/asignaturas.component';
+import { UsersComponent } from './vistas/users/users.component';
+import { GruposComponent } from './vistas/grupos/grupos.component';
+import { ProfesoresComponent } from './vistas/profesores/profesores.component';
+import { AulasComponent } from './vistas/aulas/aulas.component';
+import { EdificiosComponent } from './vistas/edificios/edificios.component';
+import { ReportesComponent } from './vistas/reportes/reportes.component';
+import { GestionUsersComponent } from './vistas/gestion-users/gestion-users.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
