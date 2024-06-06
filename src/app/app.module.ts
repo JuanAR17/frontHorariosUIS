@@ -1,35 +1,19 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { BrowserModule, provideClientHydration} from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserlogComponent } from './vistas/userlog/userlog.component';
-
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AsignaturasComponent } from './vistas/asignaturas/asignaturas.component';
-import { UsersComponent } from './vistas/users/users.component';
-import { GruposComponent } from './vistas/grupos/grupos.component';
-import { ProfesoresComponent } from './vistas/profesores/profesores.component';
-import { AulasComponent } from './vistas/aulas/aulas.component';
-import { EdificiosComponent } from './vistas/edificios/edificios.component';
-import { ReportesComponent } from './vistas/reportes/reportes.component';
-import { GestionUsersComponent } from './vistas/gestion-users/gestion-users.component';
-
-import { HttpClientModule } from '@angular/common/http';
-
+import { LoginComponent } from './login/login.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserlogComponent,
-    AsignaturasComponent,
-    UsersComponent,
-    GruposComponent,
-    ProfesoresComponent,
-    AulasComponent,
-    EdificiosComponent,
-    ReportesComponent,
-    GestionUsersComponent
+    LoginComponent,
+    HeaderComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -38,9 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [
-    provideClientHydration()
-  ],
+  providers: [provideClientHydration()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
