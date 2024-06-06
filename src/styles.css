@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Lexend", "Merriweather Sans", sans-serif;
     font-style: normal;
 }
@@ -26,7 +26,7 @@ body{
 
 .wmw{
     width: 100vw;
-    height: 80.82vh;
+    height: 82.7vh;
 }
 
 .wim{
@@ -125,19 +125,31 @@ body{
 }
 
 .btn-mgr{
+    margin: 2px 0px;
     background-color: #91BC31;
     color: #faf9ff;
+    border-color: #faf9ff;
+    border-width: 3px;
     transition: 0.6s;
-    margin: 5px 0px;
 }
 
 .btn-mgr:hover{
+    background-color: #677C30;
+    color: #faf9ff;
+    border-color: #91BC31;
+    margin: 5px 0px;
+    padding: 12px 0px;
+    transform: scale(1.050);
+    transition: .5s;
+}
+
+/* .btn-mgr:hover{
     background-color: #faffee;
     color: #677C30;
     border-color: #677C30;
     padding: 15px;
     transition: .5s;
-}
+} */
 
 .btn-mdg{
     background-color: #DA261D;
@@ -203,11 +215,6 @@ body{
     border-bottom: var(--border)
 }
 
-.return{
-    top: 220px; 
-    left: 80px;
-}
-
 .mbtn-circle{
     width: 80px; 
     height: 80px; 
@@ -238,10 +245,42 @@ body{
     margin-top: 12px;
 }
 
-.onClickstyle{
-    cursor: pointer;
+.w-1k{
+    max-width: 2000px;
 }
 
 .w-10{
     width: 10%;
+}
+
+.w-95{
+    width: 95%;
+}
+
+.w-92{
+    width: 92%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.onClickstyle{
+    cursor: pointer;
+}
+
+.fi-br-arrow-left{
+    transition: 0.5s;
+    font-size: 60px; 
+    color: #666666;
+}
+
+.fi-br-arrow-left:hover{
+    font-size: 70px; 
+    transition: 0.5s;
+    color: #161256;
+}
+
+.fs-ms{
+    font-size: 22px;
 }
